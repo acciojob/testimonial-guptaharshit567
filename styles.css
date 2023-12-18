@@ -25,7 +25,16 @@ padding-top: 1px;
 }
 .p1{
 	text-align: right;
+	font-size: small;
 }
 .p2{
 	text-align: right;
+font-size: small;
+}
+.p3{
+	text-align: left;
+	font-size: small;
+}
+.p4{
+	font-size: small;
 }
