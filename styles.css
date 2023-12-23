@@ -1,33 +1,34 @@
-   * {
-            margin: 0;
-            padding: 0;
-	      box-sizing: border-box;
-        }
+/*  your css code here. If applicable */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+ margin-bottom:20px;
+}
+.main-container{
+	padding:30px;
+	background-color:#f5f5f5;
+}
 
-        .testimonial-container {
-            padding: 10px;
-            background-color: #f5f5f5;
-            text-align: left;
-			font-size: small;
-        }
+.testimonial{
+	padding:25px;
+	border: 1px solid black;
+	background-color:#fff;
+	margin-bottom:30px;
+}
 
-        .testimonial {
-            padding: 20px;
-            border: 1px solid #ccc;
-            background-color: #fff;
-            margin-bottom: 20px;
-        }
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
 
-        .testimonial p {
-            margin: 0;
-        }
-
-        .author {
-            text-align: right;
-            font-style: italic;
-            margin-top: 10px;
-        }
-.p{
-	text-align: left;
-	font-size: small;
+/* Author styles */
+.author {
+  text-align: right;
+  font-style: italic;
+  font-weight:bold;
+  color: black;
 }
